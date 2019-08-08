@@ -1,0 +1,25 @@
+ex{
+  "name": "usbic",
+  "version": "1.0.0",
+  "description": "USB Image Cloner",
+  "main": "usbic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IceXPR/usbic.git"
+  },
+  "keywords": [
+    "clone",
+    "raspberry",
+    "image",
+    "usb"
+  ],
+  "author": "Julio Colon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IceXPR/usbic/issues"
+  },
+  "homepage": "https://github.com/IceXPR/usbic#readme"
+}
