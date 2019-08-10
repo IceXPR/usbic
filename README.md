@@ -16,7 +16,7 @@ node usbic.js source-image target-disk1 target-disk2 target-diskX
 ## Example
 
 ``` bash
-node usbic.js 2019-07-10-raspbian-buster-lite.img /dev/sdb1 /dev/sdc1
+node usbic.js 2019-07-10-raspbian-buster-lite.img /dev/sdb /dev/sdc
 ```
 
 ## Notes
