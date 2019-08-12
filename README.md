@@ -13,7 +13,14 @@ A tool to clone an image to multiple usb devices.  This is useful to clone a Ras
 
 node usbic.js source-image target-disk1 target-disk2 target-diskX
 
-## Example
+## Example using NPM
+
+``` sh
+sudo npm i -g usbic
+sudo usbic 2019-07-10-raspbian-buster-lite.img /dev/sdb /dev/sdc
+```
+
+## Example using GitHub clone
 
 ``` bash
 node usbic.js 2019-07-10-raspbian-buster-lite.img /dev/sdb /dev/sdc
