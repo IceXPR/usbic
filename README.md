@@ -19,6 +19,15 @@ node usbic.js source-image target-disk1 target-disk2 target-diskX
 node usbic.js 2019-07-10-raspbian-buster-lite.img /dev/sdb /dev/sdc
 ```
 
+## Developers
+
+To create a single binary installer use nexe
+
+``` sh
+sudo npm i -g nexe
+cat usbic.js | nexe
+```
+
 ## Notes
 
 Depending on your system permissions you may need 'sudo' to write to the USB devices.
