@@ -1,8 +1,12 @@
-ex{
+{
   "name": "usbic",
   "version": "1.0.0",
   "description": "USB Image Cloner",
   "main": "usbic.js",
+  "bin": {
+    "@IceXPR/usbic": "./usbic.js",
+    "usbic": "./usbic.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
